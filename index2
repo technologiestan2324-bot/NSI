@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSI Terminale - Accueil</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menu vertical -->
+    <nav class="sidebar">
+        <h2>📚 Menu NSI</h2>
+        <div class="menu-item">
+            <a href="cours_processus.html">Cours : Les Processus</a>
+        </div>
+        <div class="menu-item">
+            <a href="tp_processus.html">TP Pratique</a>
+        </div>
+        <div class="menu-item">
+            <a href="#ressources">Ressources</a>
+        </div>
+        <div class="menu-item">
+            <a href="#exercices">Exercices</a>
+        </div>
+    </nav>
+
+    <!-- Contenu principal -->
+    <main class="main-content">
+        <div class="header">
+            <h1>🖥️ NSI TERMINALE</h1>
+            <p>Numérique et Sciences Informatiques</p>
+        </div>
+
+        <section class="content-section">
+            <h2>Bienvenue sur le site de NSI</h2>
+            <p>
+                Ce site regroupe l'ensemble des cours, travaux pratiques et ressources 
+                pour l'enseignement de spécialité Numérique et Sciences Informatiques 
+                en classe de Terminale.
+            </p>
+            <p>
+                Vous trouverez dans le menu latéral les différents chapitres du programme, 
+                des exercices corrigés, ainsi que des projets à réaliser tout au long de l'année.
+            </p>
+            <p>
+                Utilisez la navigation pour accéder aux différentes sections : cours théoriques, 
+                travaux pratiques, et ressources complémentaires pour approfondir vos connaissances.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <h2>Thèmes du programme</h2>
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=400&h=300&fit=crop" alt="Structures de données">
+                    <div class="caption">Structures de données</div>
+                </div>
+                <div class="image-card">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop" alt="Bases de données">
+                    <div class="caption">Bases de données</div>
+                </div>
+                <div class="image-card">
+                    <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=400&h=300&fit=crop" alt="Architectures">
+                    <div class="caption">Architectures matérielles</div>
+                </div>
+                <div class="image-card">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop" alt="Réseaux">
+                    <div class="caption">Réseaux & Protocoles</div>
+                </div>
+                <div class="image-card">
+                    <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=300&fit=crop" alt="Algorithmique">
+                    <div class="caption">Algorithmique</div>
+                </div>
+                <div class="image-card">
+                    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&h=300&fit=crop" alt="Programmation">
+                    <div class="caption">Programmation Python</div>
+                </div>
+            </div>
+        </section>
+
+        <div class="footer">
+            <p>© 2026 - NSI Terminale | Cours et ressources pédagogiques</p>
+        </div>
+    </main>
+</body>
+</html>
